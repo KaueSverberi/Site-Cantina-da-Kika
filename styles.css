@@ -1304,22 +1304,75 @@ footer a{
     .cantina h1{
         color: #FAB033;
         margin-top: 10px;
-        margin-left: 7%;
-        font-size: 40px;
+        margin-left: calc(50% - 115px);
+        font-size: 35px;
         font-style: italic;
     }
     
     .cantina p{
         color: white;
+        font-size: 15px;
+        width: 200px;
+        margin-left: calc(50% - 80px);
+    }
+
+    .a-vontade h2{
         font-size: 20px;
-        width: 284px;
-        margin-left: 34px;
+        width: 200px;
+        margin-left: calc(50% - 100px);
+    }
+
+    .a-vontade p{
+        width: 80px;
+        margin-left: calc(50% - 90px);
+    }
+
+    .peso h2{
+        font-size: 20px;
+        margin-left: calc(50% - 100px);
+    }
+
+    .peso p{
+        width: 80px;
+        margin-left: calc(50% - 110px);
+    }
+
+    .mapa{
+        margin-left: calc(50% - 120px);
+    }
+
+    .mapa iframe{
+        height: 150px;
+        width: 240px;
     }
 
     footer a{
         width: 120px;
-        margin-left: 30px;
+        margin-left: 20px;
         margin-top: 3px;
+    }
+}
+
+@media(max-width: 324px){
+    .cantina h1{
+        font-size: 28px;
+        margin-left: calc(50% - 85px);
+    }
+
+    .cantina p{
+        width: 140px;
+        margin-left: calc(50% - 60px);
+    }
+
+    .mapa h2{
+        width: 200px;
+        margin-left: calc(50% - 100px);
+    }
+
+    .mapa iframe{
+        height: 123px;
+        width: 210px;
+        margin-left: calc(50% - 120px);
     }
 }
 
