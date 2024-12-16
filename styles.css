@@ -1376,6 +1376,13 @@ footer a{
     }
 }
 
+@media(max-width: 283px){
+    footer a{
+        margin-left: 10px;
+        font-size: 2px;
+    }
+}
+
 @media(max-width: 660px){
     .pratos{
         width: 550px;
