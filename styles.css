@@ -1355,6 +1355,7 @@ footer a{
 
 @media(max-width: 324px){
     .cantina h1{
+        width: 186px;
         font-size: 28px;
         margin-left: calc(50% - 85px);
     }
@@ -1374,9 +1375,7 @@ footer a{
         width: 210px;
         margin-left: calc(50% - 120px);
     }
-}
 
-@media(max-width: 283px){
     footer a{
         margin-left: 10px;
         font-size: 2px;
