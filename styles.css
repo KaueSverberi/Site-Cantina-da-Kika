@@ -1538,7 +1538,7 @@ footer a{
 
 @media(max-width: 400px){
     .pratos{
-        width: 310px;
+        width: 340px;
         height: 220px;
     }
 
@@ -1547,18 +1547,18 @@ footer a{
     }
 
     .pratos .botao-file{
-        margin-top: 8px;
-        margin-left: 113px;
+        margin-top: 35px;
+        margin-left: calc(50% - 120px);
     }
 
     .pratos .botao-parme{
-        margin-top: 41px;
-        margin-left: 113px;
+        margin-top: 35px;
+        margin-left: calc(50% - 120px)
     }
 
     .pratos button{
-        margin-top: 41px;
-        margin-left: 113px;
+        margin-top: 35px;
+        margin-left: calc(50% - 120px)
     }
 }
 
