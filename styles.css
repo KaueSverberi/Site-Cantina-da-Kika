@@ -1182,7 +1182,7 @@ footer a{
     .cantina h1{
         color: #FAB033;
         margin-top: 10px;
-        margin-left: calc(50% - 105px);
+        margin-left: calc(50% - 115px);
         font-size: 35px;
         font-style: italic;
     }
@@ -1191,12 +1191,12 @@ footer a{
         color: white;
         font-size: 20px;
         width: 314px;
-        margin-left: 50px;
+        margin-left: calc(50% - 150px);
     }
 
     .a-vontade{
         margin-top: 42px;
-        margin-left: 16%;
+        margin-left: calc(50% - 140px);
     }
 
     .a-vontade h2{
@@ -1214,7 +1214,7 @@ footer a{
     }
 
     .peso{
-        margin-left: 25%;
+        margin-left: calc(50% - 105px);
         margin-top: 20px;
     }
     
@@ -1233,13 +1233,7 @@ footer a{
 
     .mapa{
         margin-top: 28px;
-        margin-left: 16%;
-    }
-
-    footer a{
-        width: 120px;
-        margin-left: 50px;
-        margin-top: 3px;
+        margin-left: calc(50% - 135px);
     }
 
     header{
@@ -1255,8 +1249,8 @@ footer a{
     .cantina h1{
         color: #FAB033;
         margin-top: 10px;
-        margin-left: 12%;
-        font-size: 40px;
+        margin-left: calc(50% - 120px);
+        font-size: 35px;
         font-style: italic;
     }
     
@@ -1264,7 +1258,7 @@ footer a{
         color: white;
         font-size: 20px;
         width: 280px;
-        margin-left: 50px;
+        margin-left: calc(50% - 120px);
     }
 
     .mapa{
@@ -1276,7 +1270,7 @@ footer a{
 
     .a-vontade{
         margin-top: 42px;
-        margin-left: 12%;
+        margin-left: calc(50% - 120px);
     }
 
     .a-vontade h2{
@@ -1286,7 +1280,7 @@ footer a{
     }
 
     .peso{
-        margin-left: 22%;
+        margin-left: calc(50% - 80px);
         margin-top: 20px;
     }
 
@@ -1296,7 +1290,7 @@ footer a{
     }
 
     .mapa{
-        margin-left: 12%;
+        margin-left: calc(50% - 140px);
     }
 }
 
