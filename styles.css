@@ -1542,23 +1542,27 @@ footer a{
         height: 220px;
     }
 
+    .pratos h4{
+        font-size: 25px;
+    }
+
     .pratos strong{
         font-size: 0px;
     }
 
     .pratos .botao-file{
-        margin-top: 35px;
-        margin-left: calc(50% - 120px);
+        margin-top: 45px;
+        margin-left: calc(50% - 50px);
     }
 
     .pratos .botao-parme{
-        margin-top: 35px;
-        margin-left: calc(50% - 120px)
+        margin-top: 45px;
+        margin-left: calc(50% - 50px)
     }
 
     .pratos button{
-        margin-top: 35px;
-        margin-left: calc(50% - 120px)
+        margin-top: 72px;
+        margin-left: calc(50% - 50px)
     }
 }
 
