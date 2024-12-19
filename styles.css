@@ -1249,7 +1249,7 @@ footer a{
     .cantina h1{
         color: #FAB033;
         margin-top: 10px;
-        margin-left: calc(50% - 150px);
+        margin-left: 60px;
         font-size: 35px;
         font-style: italic;
     }
