@@ -1166,7 +1166,7 @@ footer a{
     .cantina h1{
         color: #FAB033;
         margin-top: 10px;
-        margin-left: calc(50vh - 235px);
+        margin-left: calc(50% - 235px);
         font-size: 35px;
         font-style: italic;
     }
@@ -1820,7 +1820,7 @@ footer a{
     .whats-salgado{
         display: inline-block;
         margin-left: calc(50% - 160px);
-        margin-top: -100px;
+        margin-top: -50px;
     }
 
     .whats-salgado h4{
@@ -1841,7 +1841,7 @@ footer a{
     }
 
     .fundo-whats{
-        width: 300px;
+        width: 320px;
         height: 80px;
     }
     
