@@ -1802,28 +1802,48 @@ footer a{
 }
 
 @media(max-width: 600px){
-    .cigarretes{
-        margin-left: -1500px;
+    .cigarretes img{
+        width: 250px;
     }
 
-    .tradicionais{
-        margin-left: -1500px;
+    .tradicionais h3{
+        width: 230px;
     }
 
-    .whats-salgado{
-        margin-top: -60px;
+    .tradicionais img{
+        width: 250px;
     }
 }
 
 @media(max-width: 543px){
+    .tradicionais{
+        margin-left: 10px;
+    }
+
+    .cigarretes{
+        margin-left: calc(75% - 120px);
+    }
+
+    .cigarretes img{
+        width: 230px;
+    }
+
+    .tradicionais h3{
+        width: 230px;
+    }
+
+    .tradicionais img{
+        width: 230px;
+    }
+    
     .whats-salgado{
-        display: inline-block;
-        margin-left: calc(50% - 160px);
-        margin-top: -50px;
+        display: flex;
+        flex-direction: column;
+        margin-left: calc(50% - 170px);
     }
 
     .whats-salgado h4{
-        width: 400px;
+        display: none;
     }
 
     .whats-salgado img{
@@ -1834,23 +1854,110 @@ footer a{
 
 @media(max-width: 480px){
     .whats-salgado h4{
-        font-size: 20px;
-        width: 300px;
-        margin-left: calc(50% - 150px);
+        display: flex;
+        width: 350px;
+    }
+    
+    .cigarretes{
+        margin-top: -398px;
+    }
+
+    .cigarretes img{
+        width: 200px;
+        height: 350px;
+    }
+
+    .cigarretes{
+        margin-left: calc(75% - 100px);
+    }
+
+    .tradicionais{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .tradicionais h3{
+        width: 180px;
+    }
+
+    .tradicionais img{
+        width: 200px;
+        height: 350px;
+    }
+}
+
+@media(max-width: 430px){
+    .cigarretes{
+        margin-top: -348px;
+    }
+
+    .cigarretes img{
+        width: 170px;
+        height: 300px;
+    }
+
+    .cigarretes{
+        margin-left: calc(75% - 80px);
+    }
+
+    .tradicionais{
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+
+    .tradicionais h3{
+        width: 180px;
+    }
+
+    .tradicionais img{
+        width: 170px;
+        height: 300px;
+    }
+
+    .whats-salgado h4{
+        width: 280px;
+        margin-left: calc(50% - 140px);
     }
 
     .fundo-whats{
-        width: 320px;
-        height: 80px;
+        width: 300px;
+        margin-left: 10px;
     }
-    
+
     .numero{
-        font-size: 32px;
-        margin-top: -40px;
+        font-size: 36px;
     }
-    
-    .clique{
-        font-size: 32px;
-        margin-top: -75px;
+}
+
+@media(max-width: 430px){
+    .cigarretes{
+        margin-top: -340px;
     }
+
+    .cigarretes img{
+        width: 140px;
+        height: 270px;
+    }
+
+    .cigarretes h3{
+        width: 140px;
+    }
+
+    .cigarretes{
+        margin-left: calc(75% - 80px);
+    }
+
+    .tradicionais{
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+
+    .tradicionais h3{
+        width: 140px;
+    }
+
+    .tradicionais img{
+        width: 140px;
+        height: 270px;
+    } 
 }
